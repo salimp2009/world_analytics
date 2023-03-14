@@ -1,7 +1,8 @@
 # WORD-ANALYTICS
 
 This is word analytics web app with Javascript, html & css as a learning project.
-![fancy-counter](./fancy-counter.png)
+
+<!-- ![fancy-counter](./fancy-counter.png) -->
 
 ## Getting Started
 
