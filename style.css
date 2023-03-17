@@ -49,6 +49,7 @@ body {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
   margin-top: 55px;
   display: flex;
+  overflow: hidden;
 }
 
 .textarea {
@@ -67,4 +68,47 @@ body {
 .stats {
   flex: 1.3;
   background-color: #f1f6f8;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stat {
+  flex: 1 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat:nth-child(1),
+.stat:nth-child(2) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.stat:nth-child(2),
+.stat:nth-child(4) {
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.stat__number {
+  color: #4d5457;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.second-heading {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #747a7c;
+}
+
+.footer {
+  width: 1050px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.4;
 }
