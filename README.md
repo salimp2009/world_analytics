@@ -2,7 +2,7 @@
 
 This is word analytics web app with Javascript, html & css as a learning project.
 
-<!-- ![fancy-counter](./fancy-counter.png) -->
+![fancy-counter](./word_analtytics.png)
 
 ## Getting Started
 
